@@ -1,0 +1,25 @@
+- O que é GIT;
+ Git possibilita a integração de fluxos de trabalho realizados por vários contribuidores
+com o passar do tempo, para um determinado repositório.
+
+- O que são esses comandos do GIT;
+O comando git fetch permite que você revise as alterações no repositório remoto antes de mesclá-las
+com o local. Ele faz o download das alterações e as atualiza nas ramificações de controle remoto.
+Para quem não conhece, as ramificações de controle remoto são cópias das ramificações 
+do repositório remoto.
+
+- Git status:
+O comando git status exibe as condições do diretório de trabalho e da área de staging.
+Ele permite que você veja quais alterações foram despreparadas,
+ quais não foram e quais arquivos não estão sendo monitorados pelo Git.
+
+ - Git commit:
+ O comando git commit captura um instantâneo das mudanças preparadas do projeto no momento.
+ Os instantâneos com commit podem ser considerados versões "seguras" de um projeto,
+ o Git nunca os altera, a menos que você peça a ele.
+
+ - Git push:
+ Um dos comandos mais essenciais no Git é o `git push`. 
+ Este comando é fundamental para enviar seus commits locais para um repositório remoto,
+ permitindo que você compartilhe seu trabalho com outros colaboradores ou faça backup
+  das suas alterações em um servidor remoto.
